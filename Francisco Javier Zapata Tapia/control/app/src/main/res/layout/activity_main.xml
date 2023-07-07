@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✠"
+            android:textSize="30dp"
+            android:id="@+id/idBtnDispBT"
+            ></Button>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:outlineSpotShadowColor="@color/black"
+            android:id="@+id/idSpinDisp"
+            >
+        </Spinner>
+    </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <Button
+               android:padding="15dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="☺"
+               android:textSize="25dp"
+               android:background="@color/white"
+               android:id="@+id/idBtnOnBT"
+               ></Button>
+       </LinearLayout>
+       <LinearLayout
+               android:layout_marginTop="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+           <Button
+               android:padding="15dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="✈"
+               android:textSize="35dp"
+               android:id="@+id/idBtnOffBT"
+               ></Button>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:padding="15dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="(◕ᴥ◕ʋ)"
+               android:textSize="30dp"
+               android:id="@+id/idBtnConect"
+               ></Button>
+
+
+
+       </LinearLayout>
+
+       <TextView
+           android:id="@+id/mensajeTextView"
+           android:padding="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginLeft="150dp"
+           android:background="@color/black"
+           android:textColor="@color/white"
+           />
+
+       <ImageView
+           android:id="@+id/circleImageView"
+           android:layout_width="250dp"
+           android:layout_height="250dp"
+           android:layout_marginTop="15dp"
+           android:layout_marginLeft="70dp"
+           android:elevation="8dp"
+           android:padding="16dp"
+           android:scaleType="center"
+           android:src="@drawable/background_circle" />
+
+   </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
